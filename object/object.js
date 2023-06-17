@@ -58,13 +58,22 @@
 
 // object constructor
 
-function Car(name,weight,long,oil,color){
-    this.carName = name,
-    this.carWeight = weight+'kg',
-    this.carLong = long+'length',
-    this.carOil = oil+'litter',
-    this.colors = color
-}
+// function Car(name,weight,long,oil,color){
+//     this.carName = name,
+//     this.carWeight = weight+' kg',
+//     this.carLong = long+' length',
+//     this.carOil = oil+' litter',
+//     this.colors = color
+// }
 
-const myCar = new Car('BMW',500,200,50,['Red','Green','Brown']);
-console.log(myCar);
+// const myCar = new Car('BMW',500,200,50,['Red','Green','Brown']);
+
+// Car.prototype.caka = 'Goal';
+
+// Car.prototype.carFullName = function(){
+//     return this.carName+ ' ' + this.carWeight;
+// }
+// console.log(myCar.carFullName());
+
+// object iterables 
+
